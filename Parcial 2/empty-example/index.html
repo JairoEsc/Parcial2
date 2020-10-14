@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial 2</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+    <!-- my css -->
+    <link rel="stylesheet" href="../css/index.css">
+    <!-- my js -->
+    <script src="sketch.js"></script>
+
+    
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-2">
+                <button type="button" id="aleatorio" class="btn btn-color btn-block" onclick="Aleatorio()" >Generar numero</button>
+            </div>
+            <div class="col-2">  
+                <button type="button" id="min" class="btn btn-color btn-block" onclick="Valmin()"disabled>No. minimo</button> 
+            </div>
+            <div class="col-2">
+                <button type="button" id="max" class="btn btn-color btn-block" onclick="Valmax()"disabled>No. maximo</button>
+                
+            </div>
+            <div class="col-2">
+                <button type="button" id="ordenar" class="btn btn-color btn-block" onclick="Burbuja()"disabled>Ordenar</button>
+            </div>
+            <div class="col-2"></div>
+            
+        </div>
+    </div>
+
+
+
+
+    <script src="../p5.js"></script>
+    <script src="../addons/p5.sound.min.js"></script>
+    <script src="sketch.js"></script>
+</body>
+</html>

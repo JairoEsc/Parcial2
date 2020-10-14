@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(221, 221, 221);
+}
+.btn-color{
+    background-color: black;
+    color: white;
+    border-radius: 70px;
+    border: none;
+    outline: none;
+    font-weight: initial;
+}
+.btn-color:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid;
+    font-size: 17px;
+}
